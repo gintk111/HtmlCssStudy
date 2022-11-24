@@ -2,7 +2,7 @@ function toast({
                    title = '',
                    message = '',
                    type = 'info',
-                   duration = 3000
+                   duration = 5000
                }) {
     const main = document.getElementById('toast')
     const icons = {
@@ -45,6 +45,6 @@ function showSuccessToast() {
         title: "Success",
         message: "LOLOLOLOLOLOL",
         type: "success",
-        duration: 3000
+        duration: 5000
     })
 }
